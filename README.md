@@ -60,14 +60,14 @@
 
 ###############################################################################################
 
- 			kplrlca (kepler_04.py) is a program for analyzing the light curves of Eclipsing
+ kplrlca (kepler_04.py) is a program for analyzing the light curves of Eclipsing
  Binaries from the KEPLER MISSION(KM). Light curve data (from the KM) can be downloaded
  from the official website of the KM (archive.stsci.edu/kepler/kepler_fov/search.php).
  The downloaded light curves are in FITS (Flexible Image Transport System) format, which
  need to be converted to txt files in order to use them in this program. Use unfits
  (unfits_09.py) program to convert FITS files into txt files.
 
-       This program (kplrlca) takes a light curve (txt format) with data for all the
+ This program (kplrlca) takes a light curve (txt format) with data for all the
  available cycles as a whole, and then extract the data for each cycle and stores it
  temporarily in the memory. All the computations, such as fourier fitting or polynomial
  fitting, calculating delta-m max (measure of the O'Connell Effect), delta-m min, O'Connell
@@ -79,10 +79,10 @@
  D type systems delta-m min, LCA, and OER are not computed.To plot the results from this
  program use keplerPlot.py
 
-       It is intended to be run from the command line in a UNIX-like environment such as
+ It is intended to be run from the command line in a UNIX-like environment such as
  Linux, Mac OS X, Solaris, or FreeBSD.
 
-       You may use, adapt, and redistribute this software subject to the terms of the
+ You may use, adapt, and redistribute this software subject to the terms of the
  Creative Commons Attribution-ShareAlike 2.5 Generic License.
 
  --> See http://creativecommons.org/licenses/by-sa/2.5/ for details.
